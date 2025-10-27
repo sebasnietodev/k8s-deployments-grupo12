@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: orders-v1
-          image: camiloromerop/orders-ms/general
+          image: camiloromerop/orders-ms:latest
           resources:
             requests:
               memory: "50Mi"
