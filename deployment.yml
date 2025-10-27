@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: payment-v1
-          image: imagenQueDebeVenirDeArgos     
+          image: camiloromerop/payments-ms:latest    
           resources:
             requests:
               memory: "50Mi"
